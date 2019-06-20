@@ -1,5 +1,10 @@
-#movies img {
+#movies .img {
     max-width: 100%;
+}
+
+#movies div.img {
+    background: center / contain no-repeat url(./assets/Noimage.png);
+    height: 100%;
 }
 
 #movies span {
@@ -9,5 +14,6 @@
     font-size: 25px;
     position: absolute;
     bottom: 0;
+    left: 16px;
     color: darkblue;
 }
